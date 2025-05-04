@@ -16,5 +16,9 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: 'white',
     padding: 12,
+    // You can use the following properties to control the width of the text:
+    // Precedence is determinded by the the parent component
+    maxWidth: '80%',
+    width: 300,
   },
 });
